@@ -1,0 +1,20 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ListView
+        android:id="@+id/listViewSwipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+</android.support.v4.widget.SwipeRefreshLayout><!-- From: file:/C:/Users/aramide/The%20Lab/Pro%20J/Type_R/Cleaned%20Up/Cleaned%20Up/SwipeRefreshLayout/app/src/main/res/layout/activity_main.xml -->
